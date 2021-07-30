@@ -2,7 +2,7 @@ import JavaOptions._
 import ScalaOptions._
 import Dependencies._
 
-ThisBuild / organization := "org.ensime"
+ThisBuild / organization := "com.ensime"
 ThisBuild / scalafixDependencies ++= rules
 
 lazy val root = (project in file("."))
